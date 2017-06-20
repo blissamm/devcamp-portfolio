@@ -32,12 +32,25 @@ class PortfoliosController < ApplicationController
         format.html { render :edit }
         format.json { render json: @blog.errors, status: :unprocessable_entity }
       end
+    end 
     end
- end
   
   def show 
     @portfolio_items = Portfolio.find(params[:id])
   end
+  
+  
+  def destroy
+    # Perform the lookup
+    @portfolio_items = Portfolio.find(params[:id])
 
+    # Destroy/delete the record
+    @portfolio_items.destroy
+
+    # Redirect
+    respond_to do |format|
+      format.html { redirect_to portfolios_url, notice: 'Record was removed.' }
+  end 
+  end
 end
 
