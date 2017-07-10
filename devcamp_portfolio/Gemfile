@@ -57,5 +57,5 @@ gem 'devise', '~> 4.2'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
-gem 'devcamp_view_tool', git: 'https://github.com/blissamm/devcamp_view_tool'
+gem 'ammon_view_tool', git: 'https://github.com/blissamm/ammon_view_tool'
 gem 'sqlite3'
