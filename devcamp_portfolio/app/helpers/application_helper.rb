@@ -15,4 +15,9 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+  
+ 
+  def copyright_generator
+   AmmonViewTool::Renderer.copyright 'Ammon Bliss', 'All Rights Reservered'
+  end
 end

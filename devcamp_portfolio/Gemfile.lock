@@ -1,8 +1,8 @@
 GIT
-  remote: https://github.com/blissamm/devcamp_view_tool
-  revision: ae91df35e3531a1a4c7111c9e3d8eea53bb3a92c
+  remote: https://github.com/blissamm/ammon_view_tool
+  revision: 3f903654969f9999ccd073369b5fb0ab21f61757
   specs:
-    devcamp_view_tool (0.1.0)
+    ammon_view_tool (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -190,10 +190,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ammon_view_tool!
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
-  devcamp_view_tool!
   devise (~> 4.2)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
